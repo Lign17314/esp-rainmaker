@@ -1,0 +1,9 @@
+menu "Example Configuration"
+
+    config APP_LED_GPIO
+        int "RGB LED GPIO"
+        default 18
+        help
+            Set the WS2812 RGB LED GPIO.
+
+endmenu
